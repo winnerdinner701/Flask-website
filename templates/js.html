@@ -1,0 +1,135 @@
+{% extends "base.html" %} {% block title %}Bubercode - Javascript{% endblock %}
+{% block head %}
+<style>
+	* {
+		font-family: "Comfortaa", cursive;
+	}
+	body {
+		margin: 0;
+		background: linear-gradient(
+			0deg,
+			rgba(2, 0, 36, 1) 0%,
+			rgba(9, 9, 121, 1) 35%,
+			rgba(0, 212, 255, 1) 100%
+		);
+	}
+	.small {
+		vertical-align: top;
+		display: inline;
+		display: inline-block;
+		text-align: center;
+		width: 20%;
+		background-color: #0e59b5;
+		padding: 10px;
+		border-radius: 5px;
+	}
+
+	.small #imgcrop img {
+		width: 100%;
+		display: inline-block;
+	}
+
+	.small #imgcrop {
+		width: 100%;
+		height: 200%;
+		overflow: hidden;
+	}
+</style>
+{% endblock %} {% block content %}
+<center>
+	<h1>Javascript</h1>
+	<br />
+	<br />
+	<br />
+	<div id="img1" class="small">
+		<div id="imgcrop">
+			<img
+				src="https://raw.githubusercontent.com/winnerdinner701/bubercode/main/image_2023-08-12_155029191.png"
+			/>
+		</div>
+		<h3>Rolling Forests</h3>
+		<h6>
+			An awesomely addictive infinite runner type game written in ThreeJS. Based
+			off a small tutorial but then blown up into a full-blown game.
+		</h6>
+		<br />
+		<a href="https://replit.com/@ChrisCopeman/RollingForests">Link to code</a>
+	</div>
+	<div id="img1" class="small">
+		<div id="imgcrop">
+			<img
+				src="https://raw.githubusercontent.com/winnerdinner701/bubercode/main/image_2023-08-13_125941752.png"
+			/>
+		</div>
+		<h3>Tether</h3>
+		<h6>
+			Tether is an awesome game about swinging a ball around and causing sheer
+			destruction. It has many different enemies that all do different things to
+			try and eliminate the player.
+		</h6>
+		<a href="https://replit.com/@ChrisCopeman/tether">Link to code</a>
+	</div>
+	<div id="img1" class="small">
+		<div id="imgcrop">
+			<img
+				src="https://raw.githubusercontent.com/winnerdinner701/bubercode/main/image_2023-08-13_131858116.png"
+			/>
+		</div>
+		<h3>Orbitron 3</h3>
+		<h6>
+			A brilliant tower defence game made with Javascript. The game 26 different
+			enemy types that have contrasting ways to try and infitrate Planet
+			Orbitron B.
+		</h6>
+		<br />
+		<a href="https://replit.com/@ChrisCopeman/Orbitron-3">Link to code</a>
+	</div>
+	<br />
+	<br />
+	<br />
+
+	<div id="img1" class="small">
+		<div id="imgcrop">
+			<img
+				src="https://raw.githubusercontent.com/winnerdinner701/bubercode/main/image_2023-08-14_145332110.png"
+			/>
+		</div>
+		<h3>Unclickable Button</h3>
+		<h6>
+			The Unclickable Button is a button that moves around whenever the mouse
+			get close to it. It tries to make it impossible to be clicked, the game
+			bypass is to be on a touchscreen device so there is no mouse.
+		</h6>
+		<a href="https://replit.com/@ChrisCopeman/Unclickable">Link to code</a>
+	</div>
+	<div id="img1" class="small">
+		<div id="imgcrop">
+			<img
+				src="https://raw.githubusercontent.com/winnerdinner701/bubercode/main/image_2023-08-14_150611098.png"
+			/>
+		</div>
+		<h3>Bookmark Extension</h3>
+		<h6>
+			This chrome extension was made in javascript and based off a tutorial of
+			how to make a basic extension. It allows you to save a timestamp and then
+			return to it later.
+		</h6>
+		<a href="https://github.com/winnerdinner701/bookmark">Link to Code</a>
+	</div>
+	<div id="img1" class="small">
+		<div id="imgcrop">
+			<img
+				src="https://raw.githubusercontent.com/winnerdinner701/bubercode/main/image_2023-08-14_144830840.png"
+			/>
+		</div>
+		<h3>Bomb Defusal</h3>
+		<h6>
+			A bomb defuse game, attempt to defuse the bomb before the timer runs out!
+			There is first a 4 number code you have to get and then four wires. Only
+			one of the wires will safely defuse the bomb.
+		</h6>
+		<a href="https://replit.com/@ChrisCopeman/bomb-defusal">Link to Code</a>
+	</div>
+	<br />
+</center>
+{% endblock %}

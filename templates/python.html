@@ -1,0 +1,107 @@
+{% extends "base.html" %} {% block title %}Bubercode - Python{% endblock %} {%
+block head %}
+<style>
+	* {
+		font-family: "Comfortaa", cursive;
+	}
+	body {
+		margin: 0;
+		background: linear-gradient(
+			0deg,
+			rgba(2, 0, 36, 1) 0%,
+			rgba(9, 9, 121, 1) 35%,
+			rgba(0, 212, 255, 1) 100%
+		);
+	}
+	.small {
+		vertical-align: top;
+		display: inline;
+		display: inline-block;
+		text-align: center;
+		width: 20%;
+		background-color: #0979b9;
+		padding: 10px;
+		border-radius: 5px;
+	}
+	.medium {
+		vertical-align: top;
+		display: inline;
+		display: inline-block;
+		text-align: center;
+		width: 25%;
+		background-color: #0979b9;
+		padding: 10px;
+		border-radius: 5px;
+	}
+	.large {
+		vertical-align: top;
+		display: inline;
+		display: inline-block;
+		text-align: center;
+		width: 30%;
+		background-color: #0979b9;
+		padding: 10px;
+		border-radius: 5px;
+	}
+	.small #imgcrop img {
+		width: 100%;
+		display: inline-block;
+	}
+
+	.small #imgcrop {
+		width: 100%;
+		height: 200%;
+		overflow: hidden;
+	}
+	.large #imgcrop img {
+		width: 100%;
+		display: inline-block;
+	}
+
+	.large #imgcrop {
+		width: 100%;
+		height: 200%;
+		overflow: hidden;
+	}
+</style>
+{% endblock %} {% block content %}
+<center>
+	<h1>Python</h1>
+	<br />
+	<br />
+	<div id="img1" class="large">
+		<div id="imgcrop">
+			<img
+				src="https://raw.githubusercontent.com/winnerdinner701/bubercode/main/code.png"
+			/>
+		</div>
+	</div>
+	<br />
+	<br />
+	<div id="img1" class="medium">
+		<h4>
+			Python was the first programming language, that didnt use blocks to code
+			with, that I used. I've mostly made apps and tools ranther than games with
+			python since its quite a simple programming language. I've done a lot of
+			projects with python but I'm just going to show a few of them.
+		</h4>
+	</div>
+	<br />
+	<br />
+	<div id="img1" class="small">
+		<h2>Python Keylogger</h2>
+		<h5>
+			This keylogger is an example of a simple application made in python. It
+			just logs your every key you press and prints it to keylog.txt.
+		</h5>
+	</div>
+	<div id="img1" class="small">
+		<h2>This Website</h2>
+		<h5>
+			This website is also made using a combination of python, javascript, css
+			and html. Most of it is python and html but I've used javascript and css
+			to create a nice design.
+		</h5>
+	</div>
+</center>
+{% endblock %}

@@ -1,0 +1,116 @@
+{% extends "base.html" %} {% block title %}Bubercode - C#/C++{% endblock %} {%
+block head %}
+<style>
+	* {
+		font-family: "Comfortaa", cursive;
+	}
+	body {
+		margin: 0;
+		background: linear-gradient(
+			0deg,
+			rgba(2, 0, 36, 1) 0%,
+			rgba(9, 9, 121, 1) 35%,
+			rgba(0, 212, 255, 1) 100%
+		);
+	}
+	.small {
+		vertical-align: top;
+		display: inline;
+		display: inline-block;
+		text-align: center;
+		width: 20%;
+		background-color: #0e59b5;
+		padding: 10px;
+		border-radius: 5px;
+	}
+
+	.small #imgcrop img {
+		width: 100%;
+		display: inline-block;
+	}
+
+	.small #imgcrop {
+		width: 100%;
+		height: 200%;
+		overflow: hidden;
+	}
+</style>
+{% endblock %} {% block content %}
+<center>
+	<h1>C#/C++</h1>
+	<br />
+	<br />
+	<h3></h3>
+	<div id="img1" class="small">
+		<div id="imgcrop">
+			<img
+				src="https://raw.githubusercontent.com/winnerdinner701/bubercode/main/image_2023-08-15_152751826.png"
+			/>
+		</div>
+		<h4>Calculator</h4>
+		<h6>
+			The first thing I made in C++ was a simple calculator in Visual Studio. I
+			adapted it from a tutorial and added some extra features to it.
+		</h6>
+		<br />
+		<a href="https://github.com/winnerdinner701/calc/">Link to code</a>
+	</div>
+	<div id="img1" class="small">
+		<div id="imgcrop">
+			<img
+				src="https://raw.githubusercontent.com/winnerdinner701/bubercode/main/2023-08-15%2016-13-44_Trim.gif"
+			/>
+		</div>
+		<h3>C# IP Logger</h3>
+		<h6>
+			This IP Logger was made in C# and gathers your ip address information and
+			sends it to a webhook and opens notepad.
+		</h6>
+		<br />
+		<a href="">Link to code</a>
+	</div>
+	<div id="img1" class="small">
+		<div id="imgcrop">
+			<img src="" />
+		</div>
+		<h3>Webhook Sender</h3>
+		<h6>
+			I made a simple application that sends a POST request to a Discord webhook
+			to send a message. I also made a version that can delete messages aswell,
+			it sends a DELETE request to the webhook.
+		</h6>
+		<a href="https://github.com/winnerdinner701/discordWebhook">Link to code</a>
+	</div>
+	<br />
+	<br />
+	<br />
+
+	<div id="img1" class="small">
+		<div id="imgcrop">
+			<img
+				src="https://raw.githubusercontent.com/winnerdinner701/bubercode/main/2023-08-21%2020-20-24_Trim.gif"
+			/>
+		</div>
+		<h3>Overload Virus</h3>
+		<h6>
+			This is a simple virus made in C# that makesm hundreds of windows until
+			your pc crashes. You also cant close it unless you use task manager.
+		</h6>
+		<a href="">Link to code</a>
+	</div>
+	<div id="img1" class="small">
+		<div id="imgcrop">
+			<img
+				src="https://templated.co/items/demos/visualize/images/fulls/03.jpg"
+			/>
+		</div>
+		<h3>VR Bowling</h3>
+		<h6>
+			This VR Bowling game was made by following a starter tutorial on how to
+			start making a game with Unity VR and then developed into bowling.
+		</h6>
+		<a href="">Link to code</a>
+	</div>
+	<br />
+</center>
+{% endblock %}

@@ -1,0 +1,11 @@
+{% extends "base.html" %} {% block title %}Permission Denied{% endblock %} {%
+block content %}
+<h1>
+	{{u}} is an incorrect username or {{p}} is the incorrect password for the
+	username {{u}}, you do not have permission to access the {{n}} page.
+</h1>
+<p>
+	<a href="/code/" class="pe-auto">This link</a> leads back to the admin login
+	page.
+</p>
+{% endblock %}

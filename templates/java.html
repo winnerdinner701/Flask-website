@@ -1,0 +1,108 @@
+{% extends "base.html" %} {% block title %}Bubercode - Java{% endblock %} {%
+block head %}
+<style>
+	* {
+		font-family: "Comfortaa", cursive;
+	}
+	body {
+		margin: 0;
+		background: linear-gradient(
+			0deg,
+			rgba(2, 0, 36, 1) 0%,
+			rgba(9, 9, 121, 1) 35%,
+			rgba(0, 212, 255, 1) 100%
+		);
+	}
+	.small {
+		vertical-align: top;
+		display: inline;
+		display: inline-block;
+		text-align: center;
+		width: 20%;
+		background-color: #0979b9;
+		padding: 10px;
+		border-radius: 5px;
+	}
+	.medium {
+		vertical-align: top;
+		display: inline;
+		display: inline-block;
+		text-align: center;
+		width: 30%;
+		background-color: #0979b9;
+		padding: 10px;
+		border-radius: 5px;
+	}
+	.large {
+		vertical-align: top;
+		display: inline;
+		display: inline-block;
+		text-align: center;
+		width: 30%;
+		background-color: #0979b9;
+		padding: 10px;
+		border-radius: 5px;
+	}
+	.small #imgcrop img {
+		width: 100%;
+		display: inline-block;
+	}
+
+	.small #imgcrop {
+		width: 100%;
+		height: 200%;
+		overflow: hidden;
+	}
+	.large #imgcrop img {
+		width: 100%;
+		display: inline-block;
+	}
+
+	.large #imgcrop {
+		width: 100%;
+		height: 200%;
+		overflow: hidden;
+	}
+</style>
+{% endblock %} {% block content %}
+<center>
+	<h1>Java</h1>
+	<br />
+	<br />
+	<div id="img1" class="medium">
+		<h4>
+			I first started working with java when I found out you could make your own
+			Minecraft plugins for the game. I started by following a tutorial on how
+			to create a plugin and went on from there. Sadly, most of the plugins I
+			made cannot be found anymore since I probably deleted them a long time
+			ago.
+		</h4>
+	</div>
+	<br />
+	<br />
+	<div id="img1" class="large">
+		<div id="imgcrop">
+			<img
+				src="https://raw.githubusercontent.com/winnerdinner701/bubercode/main/image_2023-09-04_160514103.png"
+			/>
+		</div>
+	</div>
+	<div id="img1" class="large">
+		<div id="imgcrop">
+			<img
+				src="https://raw.githubusercontent.com/winnerdinner701/bubercode/main/image_2023-09-04_160343416.png"
+			/>
+		</div>
+	</div>
+	<br />
+	<br />
+	<div id="img1" class="small">
+		<h2>Minecraft Plugins</h2>
+		<h5>
+			The pictures above shows some code from one of the plugins I developed for
+			me and my friends, it's mostly commands but also includes some upgrades
+			for weapons.
+		</h5>
+	</div>
+</center>
+{% endblock %}
